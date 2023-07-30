@@ -1,6 +1,6 @@
 
 resource "aws_cognito_user_pool" "user_pool" {
-  name = "avi-user-pool"
+  name = "project-user-pool"
 
   alias_attributes = ["email", "preferred_username"]
 
